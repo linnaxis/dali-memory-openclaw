@@ -73,13 +73,12 @@ npm run build
 
 ### 3. Configure MCP
 
-Copy `.mcp.json.example` to `~/.mcp.json` (or merge into your existing config):
+Copy `.mcp.json.example` to `~/.claude/mcp.json` (or merge into your existing config):
 
 ```json
 {
   "mcpServers": {
     "dali": {
-      "type": "stdio",
       "command": "node",
       "args": ["/absolute/path/to/dali-memory-openclaw/dist/index.js"],
       "env": {

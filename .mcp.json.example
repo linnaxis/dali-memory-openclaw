@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "dali": {
-      "type": "stdio",
       "command": "node",
       "args": ["<path-to-dali-memory-openclaw>/dist/index.js"],
       "env": {
